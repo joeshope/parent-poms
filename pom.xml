@@ -19,7 +19,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
-		<log4j.version>2.13.2</log4j.version>
+		<log4j.version>2.15.0</log4j.version>
 		<liferay.version>6.2.5</liferay.version>
 		<liferay.maven.plugin.version>6.2.5</liferay.maven.plugin.version>
 		<powermock.version>2.0.0-beta.5</powermock.version>
@@ -466,7 +466,7 @@
             <format>html</format>
             <format>xml</format>
           </formats>
-          <check />
+          <check/>
         </configuration>
       </plugin>
       <plugin>
@@ -592,7 +592,7 @@
                   <rules>
                     <requireSnapshotVersion>
                       <message>No releases allowed. Version must end with "-SNAPSHOT". Check that
-                        the &lt;version&gt; tag contains a non-release version string.
+                        the &lt;version> tag contains a non-release version string.
                       </message>
                       <failWhenParentIsRelease>false</failWhenParentIsRelease>
                     </requireSnapshotVersion>
@@ -627,7 +627,7 @@
                   <rules>
                     <requireReleaseVersion>
                       <message>Only release versions are allowed. The suffix "-SNAPSHOT" is not
-                        allowed in release versions. Check that the &lt;version&gt; contains a
+                        allowed in release versions. Check that the &lt;version> contains a
                         release version string.
                       </message>
                     </requireReleaseVersion>

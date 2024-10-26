@@ -105,7 +105,7 @@
       <dependency>
          <groupId>org.codehaus.groovy</groupId>
          <artifactId>groovy-all</artifactId>
-         <version>2.5.7</version>
+         <version>2.5.14</version>
          <type>pom</type>
        </dependency>
       <dependency>
@@ -466,7 +466,7 @@
             <format>html</format>
             <format>xml</format>
           </formats>
-          <check />
+          <check/>
         </configuration>
       </plugin>
       <plugin>
